@@ -1,2 +1,3 @@
 # scribe
-Makes more writable boxes with less dye in 7 Days to Die Rebirth
+
+Make more writable boxes with less dye in 7 Days to Die Rebirth.
