@@ -1,23 +1,23 @@
 <config>
 
-	<setattribute xpath="/recipes/recipe[@name='cntWoodWritableCrate']" name="count">10</setattribute>
-	<setattribute xpath="/recipes/recipe[@name='cntIronWritableCrate']" name="count">10</setattribute>
-	<setattribute xpath="/recipes/recipe[@name='cntSteelWritableCrate']" name="count">10</setattribute>
+  <setattribute xpath="/recipes/recipe[@name='cntWoodWritableCrate']" name="count">10</setattribute>
+  <setattribute xpath="/recipes/recipe[@name='cntIronWritableCrate']" name="count">10</setattribute>
+  <setattribute xpath="/recipes/recipe[@name='cntSteelWritableCrate']" name="count">10</setattribute>
 
-	<set xpath="/recipes/recipe[@name='cntWoodWritableCrate']">
-		<ingredient name="FuriousRamsayWoodPlank" count="100" />
-		<ingredient name="resourceNail" count="200" />
-		<ingredient name="modDyeBlack" count="1"/>
-	</set>
-	<set xpath="/recipes/recipe[@name='cntIronWritableCrate']">
-		<ingredient name="resourceForgedIron" count="200" />
-		<ingredient name="FuriousRamsayScrews" count="100" />
-		<ingredient name="modDyeBlack" count="1"/>
-	</set>
-	<set xpath="/recipes/recipe[@name='cntSteelWritableCrate']">
-		<ingredient name="resourceForgedSteel" count="200" />
-		<ingredient name="FuriousRamsayScrews" count="100" />
-		<ingredient name="modDyeBlack" count="1"/>
+  <set xpath="/recipes/recipe[@name='cntWoodWritableCrate']">
+    <ingredient name="FuriousRamsayWoodPlank" count="100" />
+    <ingredient name="resourceNail" count="200" />
+    <ingredient name="modDyeBlack" count="1"/>
   </set>
-  
+  <set xpath="/recipes/recipe[@name='cntIronWritableCrate']">
+    <ingredient name="resourceForgedIron" count="200" />
+    <ingredient name="FuriousRamsayScrews" count="100" />
+    <ingredient name="modDyeBlack" count="1"/>
+  </set>
+  <set xpath="/recipes/recipe[@name='cntSteelWritableCrate']">
+    <ingredient name="resourceForgedSteel" count="200" />
+    <ingredient name="FuriousRamsayScrews" count="100" />
+    <ingredient name="modDyeBlack" count="1"/>
+  </set>
+
 </config>
